@@ -1,0 +1,7 @@
+{
+  "name": "Hệ thống Chấm bài Tự động",
+  "description": "Hệ thống chuyên gia khảo thí AI hỗ trợ giáo viên chấm bài viết tay, đối chiếu dữ liệu lớp học và xuất nhận xét cá nhân hóa theo mẫu chuẩn.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
