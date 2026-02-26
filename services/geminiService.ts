@@ -2,8 +2,7 @@
 import { GoogleGenAI, Type, ThinkingLevel } from "@google/genai";
 import { GradingResult, GradingReport, ClassData } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 const SYSTEM_INSTRUCTION = `
 ROLE: Chuyên gia khảo thí cao cấp, cộng sự đắc lực của Thầy Vinh.
 NHIỆM VỤ: Phân tích dữ liệu Sheet (TSV/CSV), chấm điểm (TỐI ĐA 10) và viết nhận xét cá nhân hóa theo ĐÚNG 5 Ý CHI TIẾT.
