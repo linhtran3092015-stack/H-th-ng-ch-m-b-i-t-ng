@@ -54,7 +54,7 @@ YÊU CẦU ĐẶC BIỆT:
 `;
 
 export async function processClassGrading(data: ClassData): Promise<GradingReport> {
-  const model = 'gemini-3-pro-preview';
+  const model = 'gemini-1.5-pro';
 
   const parts: any[] = [
     { text: `BIỂU MẪU CHẤM ĐIỂM CHI TIẾT CỦA THẦY VINH: ${data.markingGuide}` },
